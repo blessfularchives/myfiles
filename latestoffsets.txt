@@ -4,9 +4,9 @@
 /*               https://imtheo.lol/Offsets                     
 /* -------------------------------------------------------------
 /*  Dumped By       : theo (https://imtheo.lol)                 
-/*  Roblox Version  : version-a182ba0d4c6f483b
+/*  Roblox Version  : version-ad5d3e2906444472
 /*  Dumper Version  : 2.1.7
-/*  Dumped At       : 18:13 02/06/2026 (GMT)
+/*  Dumped At       : 21:59 03/06/2026 (GMT)
 /*  Total Offsets   : 381
 /* -------------------------------------------------------------
 /*  Join the discord!                                           
@@ -17,7 +17,7 @@
 #include <cstdint>
 #include <string>
 namespace Offsets {
-    inline std::string ClientVersion = "version-a182ba0d4c6f483b";
+    inline std::string ClientVersion = "version-ad5d3e2906444472";
 
     namespace AirProperties {
          inline constexpr uintptr_t AirDensity = 0x18;
@@ -52,7 +52,7 @@ namespace Offsets {
 
     namespace BasePart {
          inline constexpr uintptr_t CastShadow = 0xf5;
-         inline constexpr uintptr_t Color3 = 0x72;
+         inline constexpr uintptr_t Color3 = 0x194;
          inline constexpr uintptr_t Locked = 0xf6;
          inline constexpr uintptr_t Massless = 0xf7;
          inline constexpr uintptr_t Primitive = 0x148;
@@ -229,7 +229,7 @@ namespace Offsets {
          inline constexpr uintptr_t NameDisplayDistance = 0x1bc;
          inline constexpr uintptr_t NameOcclusion = 0x1c0;
          inline constexpr uintptr_t PlatformStand = 0x1e8;
-         inline constexpr uintptr_t PlatformStatePointer = 0xCAA839F2;
+         inline constexpr uintptr_t PlatformStatePointer = 0x0ECB9B90;
          inline constexpr uintptr_t RequiresNeck = 0x1e9;
          inline constexpr uintptr_t RigType = 0x1cc;
          inline constexpr uintptr_t SeatPart = 0x120;
@@ -474,7 +474,7 @@ namespace Offsets {
     }
 
     namespace SpawnLocation {
-         inline constexpr uintptr_t AllowTeamChangeOnTouch = 0x3d;
+         inline constexpr uintptr_t AllowTeamChangeOnTouch = 0x1f8;
          inline constexpr uintptr_t Enabled = 0x1f9;
          inline constexpr uintptr_t ForcefieldDuration = 0x1f0;
          inline constexpr uintptr_t Neutral = 0x1fa;
